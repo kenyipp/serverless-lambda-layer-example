@@ -1,0 +1,22 @@
+{
+	"name": "utils-layer",
+	"version": "1.0.0",
+	"description": "A list of useful node modules including axios, bluebird, moment and winston.",
+	"main": "index.js",
+	"scripts": {},
+	"author": "ken.yip",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"bluebird": "^3.7.2",
+		"moment": "^2.24.0",
+		"winston": "^3.2.1"
+	},
+	"devDependencies": {},
+	"keywords": [
+		"axios",
+		"bluebird",
+		"moment",
+		"winston"
+	]
+}

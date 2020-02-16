@@ -1,0 +1,36 @@
+service: lambda-layer
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: ap-southeast-1
+  profile: default
+  stage: production
+
+package:
+  individually: true
+  exclude:
+    - sharp/**
+    - common/**
+  excludeDevDependencies: true
+
+layers:
+
+  sharp:
+    path: ./sharp
+    description: High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images.
+    compatibleRuntimes:
+      - nodejs10.x
+    package:
+      include:
+        - node_module/**
+    retain: false
+
+  utils:
+    path: ./utils
+    description: A list of useful node modules including axios, bluebird, moment and winston.
+    package:
+      include:
+        - node_module/**
+    retain: true
+

@@ -1,0 +1,24 @@
+{
+	"name": "serverless-lambda-layer-example",
+	"version": "1.0.0",
+	"description": "It is an example to demonstrate how to create lambda layer with serverless framework. ",
+	"main": "handler.js",
+	"scripts": {
+		"deploy": "serverless deploy"
+	},
+	"keywords": [
+		"serverless",
+		"lambda",
+		"lambda-layer"
+	],
+	"author": "ken.yip",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenyipp/serverless-lambda-layer-example.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kenyipp/serverless-lambda-layer-example/issues"
+	},
+	"homepage": "https://github.com/kenyipp/serverless-lambda-layer-example#readme"
+}
