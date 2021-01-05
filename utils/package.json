@@ -7,7 +7,7 @@
 	"author": "ken.yip",
 	"license": "MIT",
 	"dependencies": {
-		"axios": "^0.19.2",
+		"axios": "^0.21.1",
 		"bluebird": "^3.7.2",
 		"moment": "^2.24.0",
 		"winston": "^3.2.1"
